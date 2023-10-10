@@ -149,7 +149,9 @@ transforms:
 vocab_filename: vocab.txt
 ```
 
-**[Speech-to-Speech Translation Data]** Training data for the `DASpeech` should be like this:
+**[Speech-to-Speech Translation Data]** 
+
+Training data for the `DASpeech` should be like this:
 
 ```
 id	src_audio	src_n_frames	tgt_text	tgt_audio	tgt_n_frames	duration	pitch	energy
