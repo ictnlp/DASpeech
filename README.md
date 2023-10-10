@@ -1,6 +1,6 @@
 # DASpeech
 
-**Qingkai Fang, Yan Zhou Yang Feng\* | Institute of Computing Technology, Chinese Academy of Sciences (ICT/CAS)**
+**Qingkai Fang, Yan Zhou, Yang Feng\* | Institute of Computing Technology, Chinese Academy of Sciences (ICT/CAS)**
 
 This is the PyTorch implementation of the **NeurIPS 2023** paper `DASpeech: Directed Acyclic Transformer for Fast and High-quality Speech-to-Speech Translation`.
 
