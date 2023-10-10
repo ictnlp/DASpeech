@@ -212,7 +212,7 @@ vocab_filename: vocab.txt
 
 ## Model Training
 
-We takes CVSS-C Fr$\rightarrow$En as an example. All models are trained on 4 RTX 3090 GPUs. You can adjust the `--update-freq` depending on the number of your available GPUs.
+We takes CVSS-C Fr-En as an example. All models are trained on 4 RTX 3090 GPUs. You can adjust the `--update-freq` depending on the number of your available GPUs.
 
 ### 1. S2TT DA-Tranformer Pretraining
 
