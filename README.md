@@ -1,6 +1,6 @@
 # DASpeech
 
-**Qingkai Fang, Yan Zhou Yang Feng* | Institute of Computing Technology, Chinese Academy of Sciences (ICT/CAS)**
+**Qingkai Fang, Yan Zhou Yang Feng\* | Institute of Computing Technology, Chinese Academy of Sciences (ICT/CAS)**
 
 This is the PyTorch implementation of the **NeurIPS 2023** paper `DASpeech: Directed Acyclic Transformer for Fast and High-quality Speech-to-Speech Translation`.
 
@@ -20,10 +20,10 @@ DASpeech
 ├── __init__.py
 ├── criterions
 │   ├── __init__.py
-│   ├── nat_dag_loss.py										## DA-Transformer loss
-│   ├── s2s_dag_fastspeech2_loss.py						    ## DASpeech loss
+│   ├── nat_dag_loss.py                     ## DA-Transformer loss
+│   ├── s2s_dag_fastspeech2_loss.py         ## DASpeech loss
 │   └── utilities.py
-├── custom_ops												## CUDA implementations
+├── custom_ops                              ## CUDA implementations
 │   ├── __init__.py
 │   ├── dag_best_alignment.cu
 │   ├── dag_loss.cpp
@@ -34,24 +34,24 @@ DASpeech
 ├── datasets
 │   ├── __init__.py
 │   ├── nat_speech_to_speech_data_cfg.py
-│   ├── nat_speech_to_speech_dataset.py				        ## NAR S2ST dataset
-│   └── nat_speech_to_text_dataset.py					    ## NAR S2TT dataset
+│   ├── nat_speech_to_speech_dataset.py     ## NAR S2ST dataset
+│   └── nat_speech_to_text_dataset.py       ## NAR S2TT dataset
 ├── generator
 │   ├── __init__.py
-│   ├── generate_features.py								## Generation scripts
-│   ├── s2s_nat_generator.py								## NAR S2ST generator
-│   ├── s2t_nat_generator.py							    ## NAR S2TT generator
+│   ├── generate_features.py                ## Generation scripts
+│   ├── s2s_nat_generator.py                ## NAR S2ST generator
+│   ├── s2t_nat_generator.py                ## NAR S2TT generator
 │   └── speech_generator_modified.py
 ├── models
 │   ├── __init__.py
 │   ├── fastspeech2_noemb.py
-│   ├── s2s_conformer_dag_fastspeech2.py			        ## DASpeech model
-│   ├── s2t_conformer_dag.py								## S2TT DA-Transformer model
+│   ├── s2s_conformer_dag_fastspeech2.py    ## DASpeech model
+│   ├── s2t_conformer_dag.py                ## S2TT DA-Transformer model
 │   └── s2t_conformer_nat.py
 └── tasks
     ├── __init__.py
-    ├── nat_speech_to_speech.py								## NAR S2ST task
-    └── nat_speech_to_text.py								## NAR S2TT task
+    ├── nat_speech_to_speech.py             ## NAR S2ST task
+    └── nat_speech_to_text.py               ## NAR S2TT task
 ```
 
 
