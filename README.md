@@ -6,7 +6,7 @@ This is the PyTorch implementation of the **NeurIPS 2023** paper `DASpeech: Dire
 
 **Abstract**: DASpeech is a non-autoregressive direct S2ST model which realizes both *fast* and *high-quality* S2ST. To better capture the multimodal distribution of the target speech, DASpeech adopts the two-pass architecture to decompose the generation process into two steps, where a linguistic decoder first generates the target text, and an acoustic decoder then generates the target speech based on the hidden states of the linguistic decoder. Specifically, we use the decoder of DA-Transformer as the linguistic decoder, and use FastSpeech 2 as the acoustic decoder. DA-Transformer models translations with a directed acyclic graph (DAG). To consider all potential paths in the DAG during training, we calculate the expected hidden states for each target token via dynamic programming, and feed them into the acoustic decoder to predict the target mel-spectrogram. During inference, we select the most probable path and take hidden states on that path as input to the acoustic decoder. DASpeech successfully achieves both high-quality translations and fast decoding speeds for S2ST.
 
-**Audio samples are available at [https://daspeech.github.io/](https://daspeech.github.io/)**.
+**Audio samples are available at [https://ictnlp.github.io/daspeech-demo/](https://ictnlp.github.io/daspeech-demo/)**.
 
 ![daspeech](assets/daspeech.png)
 
