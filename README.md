@@ -414,7 +414,7 @@ For *Joint-Viterbi* decoding, please select the value of parameter $\beta$ accor
 
 ## Citation
 
-In this repository is useful for you, please cite as:
+If this repository is useful for you, please cite as:
 
 ```
 @inproceedings{fang-etal-2023-daspeech,
