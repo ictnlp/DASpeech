@@ -222,7 +222,7 @@ We takes CVSS-C Fr-En as an example. All models are trained on 4 RTX 3090 GPUs. 
 ### 1. S2TT DA-Tranformer Pretraining
 
 ```shell
-fairseq-train data/cvss-c/fr-en/s2t \
+fairseq-train data/cvss-c/fr-en/fbank2phone \
     --user-dir DASpeech \
     --config-yaml config.yaml \
     --task nat_speech_to_text --noise full_mask \
@@ -283,7 +283,7 @@ fairseq-train data/cvss-c/fr-en/tts/ \
 ### 3. DASpeech finetuning
 
 ```shell
-fairseq-train data/cvss-c/fr-en/s2s \
+fairseq-train data/cvss-c/fr-en/nat_s2s \
     --user-dir DASpeech \
     --config-yaml config.yaml \
     --task nat_speech_to_speech --noise full_mask \
@@ -328,7 +328,7 @@ The script for the two-stage S2TT pretraining is below:
 
 ```shell
 # speech-to-subword pretrain
-fairseq-train data/cvss-c/x-en/s2t_subword \
+fairseq-train data/cvss-c/x-en/fbank2text \
     --user-dir DASpeech \
     --config-yaml config.yaml \
     --task nat_speech_to_text --noise full_mask \
@@ -362,7 +362,7 @@ fairseq-train data/cvss-c/x-en/s2t_subword \
     --no-progress-bar --log-format json --log-interval 100 \
     --num-workers 0
 # speech-to-phoneme pretrain
-fairseq-train data/cvss-c/x-en/s2t_phoneme \
+fairseq-train data/cvss-c/x-en/fbank2phone \
     --user-dir DASpeech \
     --config-yaml config.yaml \
     --task nat_speech_to_text --noise full_mask \
