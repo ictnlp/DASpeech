@@ -11,6 +11,11 @@ This is the PyTorch implementation of the **NeurIPS 2023** paper [DASpeech: Dire
 ![daspeech](assets/daspeech.png)
 
 
+## 🔥 News
+
+** [2024/01] We have preliminarily released the data processing scripts because many people are in need. Please refer to the [documentation](https://github.com/ictnlp/DASpeech/blob/main/DATA_PREPARE.md). We are currently working on a more concise version and plan to release it as soon as possible.**
+
+
 ## DASpeech files
 
 We provide the fairseq plugins in the directory `DASpeech/`, some of them (`custom_ops/`, `nat_dag_loss.py`) are copied from the [original DA-Transformer](https://github.com/thu-coai/DA-Transformer).
