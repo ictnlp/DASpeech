@@ -254,7 +254,7 @@ fairseq-train data/cvss-c/fr-en/s2t \
     --keep-best-checkpoints 5 \
     --keep-interval-updates 5 --keep-last-epochs 5 \
     --no-progress-bar --log-format json --log-interval 100 \
-    --num-workers 8
+    --num-workers 0
 ```
 
 ### 2. FastSpeech 2 Pretraining
@@ -262,7 +262,7 @@ fairseq-train data/cvss-c/fr-en/s2t \
 ```shell
 fairseq-train data/cvss-c/fr-en/tts/ \
     --config-yaml config.yaml --train-subset train --valid-subset dev \
-    --num-workers 8 --max-sentences 64 --max-update 100000 \
+    --num-workers 0 --max-sentences 64 --max-update 100000 \
     --task text_to_speech --criterion fastspeech2 --arch fastspeech2 \
     --encoder-layers 4 --encoder-embed-dim 256 --encoder-attention-heads 4 \
     --decoder-layers 4 --decoder-embed-dim 256 --decoder-attention-heads 4 \
@@ -317,7 +317,7 @@ fairseq-train data/cvss-c/fr-en/s2s \
     --no-progress-bar --log-format json --log-interval 100 \
     --load-pretrained-dag-from checkpoints/cvss-c.fr-en.da-transformer/average_best_checkpoint.pt \
     --load-pretrained-fastspeech-from checkpoints/cvss-c.fr-en.fastspeech2/average_best_checkpoint.pt \
-    --num-workers 8
+    --num-workers 0
 ```
 
 ## Multilingual Setting (CVSS-C X-En many-to-one S2ST training)
@@ -360,7 +360,7 @@ fairseq-train data/cvss-c/x-en/s2t_subword \
     --keep-best-checkpoints 5 \
     --keep-interval-updates 5 --keep-last-epochs 5 \
     --no-progress-bar --log-format json --log-interval 100 \
-    --num-workers 8
+    --num-workers 0
 # speech-to-phoneme pretrain
 fairseq-train data/cvss-c/x-en/s2t_phoneme \
     --user-dir DASpeech \
@@ -395,7 +395,7 @@ fairseq-train data/cvss-c/x-en/s2t_phoneme \
     --keep-interval-updates 5 --keep-last-epochs 5 \
     --no-progress-bar --log-format json --log-interval 100 \
     --load-pretrained-dag-from checkpoints/cvss-c.x-en.da-transformer.subword/average_best_checkpoint.pt \
-    --num-workers 8
+    --num-workers 0
 ```
 
 
