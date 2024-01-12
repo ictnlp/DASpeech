@@ -13,7 +13,7 @@ This is the PyTorch implementation of the **NeurIPS 2023** paper [DASpeech: Dire
 
 ## 🔥 News
 
-** [2024/01] We have preliminarily released the data processing scripts because many people are in need. Please refer to the [documentation](https://github.com/ictnlp/DASpeech/blob/main/DATA_PREPARE.md). We are currently working on a more concise version and plan to release it as soon as possible.**
+**[2024/01] We have preliminarily released the data processing scripts because many people are in need. Please refer to the [documentation](https://github.com/ictnlp/DASpeech/blob/main/DATA_PREPARE.md). We are currently working on a more concise version and plan to release it as soon as possible.**
 
 
 ## DASpeech files
