@@ -423,7 +423,7 @@ If this repository is useful for you, please cite as:
 
 ```
 @inproceedings{fang-etal-2023-daspeech,
-    title={DASpeech: Directed Acyclic Transformer for Fast and High-quality Speech-to-Speech Translation},
+    title={{DAS}peech: Directed Acyclic Transformer for Fast and High-quality Speech-to-Speech Translation},
     author={Fang, Qingkai and Zhou, Yan and Feng, Yang},
     booktitle={Advances in Neural Information Processing Systems},
     year={2023},
