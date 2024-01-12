@@ -91,7 +91,7 @@ python translatotron/preprocess/convert_s2tt_tsv_to_s2pt_tsv.py \
     --s2pt-tsv-dir data/cvss-c/fr-en/fbank2phone
 ```
 
-Manually copy the vocabulary file `tts/vocab.txt`` to the `fbank2phone/`` directory, and follow the instructions in the README to write the `config.yaml`.
+Manually copy the vocabulary file `tts/vocab.txt` to the `fbank2phone/` directory, and follow the instructions in the README to write the `config.yaml`.
 
 
 ## 7. Prepare the multitask (tgt_phoneme) tsv
