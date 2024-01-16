@@ -7,7 +7,7 @@ This is a tutorial about data processing.
 ## 1. Extract Discrete Units (Unnecessary for DASpeech but used in S2UT and UnitY)
 
 ```
-sh translatotron/preprocess/s2ut/run.sh data/cvss-c/fr-en
+sh translatotron/preprocess/s2ut/run_mhubert.sh data/cvss-c/fr-en
 ```
 
 ## 2. Prepare speech-to-unit tsv
