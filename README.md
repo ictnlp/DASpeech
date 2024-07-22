@@ -13,7 +13,7 @@ This is the PyTorch implementation of the **NeurIPS 2023** paper [DASpeech: Dire
 
 ## 🔥 News
 
-- **[2024/07] We released the DASpeech model trained on the CVSS Fr-En dataset. You can download it via [this link]([https://drive.google.com/file/d/1ffBgumut9I3Rnb10QOrZOZu8vyZd_0lQ/view](https://drive.google.com/drive/folders/1VlJeCHouxj0OxsP060pLYLud1cqkSTso?usp=drive_link)).**
+- **[2024/07] We released the DASpeech model trained on the CVSS Fr-En dataset. You can download it via [this link](https://drive.google.com/drive/folders/1VlJeCHouxj0OxsP060pLYLud1cqkSTso?usp=drive_link).**
 
 - **[2024/01] We have preliminarily released the data processing scripts because many people are in need. Please refer to the [documentation](https://github.com/ictnlp/DASpeech/blob/main/DATA_PREPARE.md). We are currently working on a more concise version and plan to release it as soon as possible.**
 
